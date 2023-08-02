@@ -11,9 +11,6 @@ export default function NavBar() {
           <li>
             <Link to="/"> Home</Link>
           </li>
-          <li>
-            <Link to="/items"> Items </Link>
-          </li>
         </div>
 
         {/* <div className="right-side-Navbar">
