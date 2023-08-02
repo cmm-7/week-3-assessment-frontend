@@ -1,12 +1,16 @@
-import ItemCard from "../ItemCard/ItemCard"
+import ItemCard from "../ItemCard/ItemCard";
 
-export default function ItemsList({itemsData}){
+import "./ItemsList.css";
+
+export default function ItemsList({ itemsData }) {
   return (
-    <div>
-      <h1> Menu</h1>
-      {itemsData.map((item) => 
-        <ItemCard item={item} />
-      )}
+    <div className="main">
+      <h1> Our Menu</h1>
+      <div className="Items-list">
+        {itemsData.map((item) => (
+          <ItemCard item={item} key={item.id} />
+        ))}
+      </div>
     </div>
-  )
+  );
 }
