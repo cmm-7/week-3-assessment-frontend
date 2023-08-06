@@ -5,7 +5,7 @@ import Error from "../Error/Error";
 
 import "./ItemDetails.css";
 
-const API_URL = "http://localhost:4444";
+const API_URL = "http://localhost:8888";
 
 export default function ItemDetails({ loading, setLoading, error, setError }) {
   const { id } = useParams();

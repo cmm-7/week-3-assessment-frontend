@@ -7,7 +7,7 @@ import ItemDetails from "./componenets/ItemDetails/ItemDetails";
 
 import "./App.css";
 
-const API_URL = "http://localhost:4444";
+const API_URL = "http://localhost:8888";
 
 function App() {
   const [itemsData, setItemsData] = useState([]);
